@@ -59,6 +59,9 @@
             "./public/.htaccess"
         ]
     },
+    "symfony/asset": {
+        "version": "v5.1.3"
+    },
     "symfony/cache": {
         "version": "v5.1.3"
     },
