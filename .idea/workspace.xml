@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542ea6bd-8217-44de-bda1-8d74a8ac3e1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200819053623.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/VideoRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Twig/AppExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/front/_main_categories.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FrontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <list id="d628e4d1-e4fb-4c45-bdab-7dc820509650" name="IGNORE" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/VideoApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VideoApp.iml" afterDir="false" />
@@ -39,67 +28,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="4640">
+              <caret line="147" selection-start-line="147" selection-end-line="147" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="278">
+              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/FrontController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
               <folding>
-                <element signature="e#36#60#0#PHP" expanded="true" />
+                <element signature="e#34#58#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/CategoryRepository.php">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/front/_main_categories.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="1" column="101" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Twig/AppExtension.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/dashboard.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="55" />
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -129,7 +109,6 @@
         <option value="$PROJECT_DIR$/templates/front/login.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/includes/_header.php" />
         <option value="$PROJECT_DIR$/templates/admin/includes/_footer.php" />
-        <option value="$PROJECT_DIR$/src/Controller/FrontController.php" />
         <option value="$PROJECT_DIR$/templates/front/payment.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/my_profile.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/base.html.twig" />
@@ -140,11 +119,14 @@
         <option value="$PROJECT_DIR$/templates/admin/users.html.twig" />
         <option value="$PROJECT_DIR$/templates/admin/videos.html.twig" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/Entity/Video.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/FrontController.php" />
+        <option value="$PROJECT_DIR$/templates/front/_main_categories.html.twig" />
+        <option value="$PROJECT_DIR$/src/Twig/AppExtension.php" />
       </list>
     </option>
   </component>
@@ -231,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,13 +230,32 @@
               <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="VideoApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="Twig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,6 +269,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Komputer\.PhpStorm2019.1\config\scratches" />
       <recent name="C:\wamp64\www\VideoApp\assets\css" />
       <recent name="C:\wamp64\www\VideoApp\templates" />
       <recent name="C:\wamp64\www\VideoApp\public" />
@@ -299,7 +302,8 @@
       <workItem from="1597585052559" duration="1868000" />
       <workItem from="1597648709416" duration="4649000" />
       <workItem from="1597733113262" duration="4762000" />
-      <workItem from="1597814599208" duration="2142000" />
+      <workItem from="1597814599208" duration="2368000" />
+      <workItem from="1597910146718" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="Completed basic html structure.">
       <created>1597586858467</created>
@@ -329,16 +333,24 @@
       <option name="project" value="LOCAL" />
       <updated>1597737725171</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create Category Fixture.">
+      <created>1597816912466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597816912466</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13421000" />
+    <option name="totallyTimeSpent" value="15990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2593583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26256683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +363,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28295454" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28295454" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -368,7 +380,8 @@
     <MESSAGE value="Style admin area." />
     <MESSAGE value="Styled all pages and add webpack encore." />
     <MESSAGE value="Create Category and Video Entities." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Category and Video Entities." />
+    <MESSAGE value="Create Category Fixture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Category Fixture." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Kernel.php">
@@ -503,17 +516,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/FrontController.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="288">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="-3165">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Repository/ServiceEntityRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#30#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -538,72 +582,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/CategoryFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3165">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/Repository/ServiceEntityRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/CategoryRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#30#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="337">
+          <caret line="146" lean-forward="true" selection-end-line="147" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="4640">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding>
-            <element signature="e#36#60#0#PHP" expanded="true" />
+            <element signature="e#34#58#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/_main_categories.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="101" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twig/AppExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
