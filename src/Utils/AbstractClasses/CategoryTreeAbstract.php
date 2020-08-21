@@ -14,15 +14,19 @@ abstract class CategoryTreeAbstract
     /**
      * @var EntityManagerInterface
      */
-    private $entityManager;
+    protected $entityManager;
     /**
      * @var UrlGeneratorInterface
      */
-    private $urlGenerator;
+    protected $urlGenerator;
     /**
      * @var mixed[]
      */
     public $categoriesArrayFromDb;
+    /**
+     * @var array
+     */
+    public $categoryList;
 
     public function __construct(EntityManagerInterface $entityManager, UrlGeneratorInterface $urlGenerator)
     {
@@ -32,6 +36,24 @@ abstract class CategoryTreeAbstract
     }
 
     abstract public function getCategoryList(array $categoriesArray);
+
+    public function buildTree(int $parentId = null): array
+    {
+        $subcategory = [];
+
+        foreach ($this->categoriesArrayFromDb as $category)
+        {
+            if ($category['parent_id'] == $parentId) {
+                if ($children = $this->buildTree($category['id'])) {
+                    $category['children'] = $children;
+                }
+
+                $subcategory[] = $category;
+            }
+        }
+
+        return $subcategory;
+    }
 
     private function getCategories()
     {
